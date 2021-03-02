@@ -1,0 +1,111 @@
+
+.addressAddNew{
+    margin-top: -20px;
+    position: relative;
+}
+
+.addressAddNew > form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    min-width: 215px;
+}
+
+.addressAddNew > form > span{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3px 0px;
+}
+
+.addressAddNew > form > input{
+    box-sizing: border-box;
+    height: 31px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #d0d0d0;
+    border-top: 1px solid #bbb;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+}
+
+.addressAddNew > form > input:valid{
+    border: 1px solid #d0d0d0 !important;
+    border-top: 1px solid #bbb !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset !important;
+}
+
+.addressAddNew > form > select:valid{
+    border: 1px solid #d0d0d0 !important;
+    border-top: 1px solid #bbb !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset !important;
+}
+
+.addressAddNew > form > input:focus {
+    outline: none;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+.invalidInput{
+    outline: none;
+    border-color: #d00 !important;
+    box-shadow: 0 0 3px 2px rgba(221,0,0,.5) !important;
+}
+
+.addressAddNew > form > select{
+    box-sizing: border-box;
+    height: 31px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: 1px solid #d0d0d0;
+    border-top: 1px solid #bbb;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+}
+
+.addressAddNew > form > select:focus {
+    outline: none;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228,121,17,.5);
+}
+
+.addressAddNew > form > button{
+    margin-top: 10px;
+    background: linear-gradient(to top,#f7dfa5,#f0c14b);
+    outline: none;
+    appearance: none;
+    border: 1px;
+    border-color: #cba957 #bf942a #aa8326;
+    border-radius: 3px;
+    border-style: solid;
+    width: fit-content;
+    padding: 7px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.addressErrorContainer{
+    box-sizing: border-box;
+    box-shadow: 0 0 0 4px #fcf4f4 inset;
+    padding: 14px 18px 14px 63px;
+    border: 1px #c40000 solid;
+    border-radius: 4px;
+    width: 40vw;
+    margin: 15px 0;
+}
+
+.addressErrorContainer > div{
+    display: flex;
+    color: #c40000;
+}
+
+.addressErrorContainer > div > p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.addressErrorContainer > span{
+    font-size: 13px;
+}

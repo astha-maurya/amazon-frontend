@@ -1,0 +1,86 @@
+.orderBlock{
+    margin-bottom: 12px;
+}
+
+.orderBlockHeader{
+    display: flex;
+    background: #f6f6f6;
+    border: 1px #ddd solid;
+    border-radius: 4px 4px 0 0;
+    color: #565959;
+}
+
+.orderBlockHeader > div{
+    padding: 14px 18px;
+}
+
+.orderBlockHeader > div > div:first-of-type{
+    font-size: 11px;
+}
+
+.orderBlockHeader > div > div:last-of-type{
+    font-size: 13px;
+}
+
+.orderBlockHeader > div:last-of-type{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.orderBlockContent{
+    border-radius: 0 0 4px 4px;
+    border: 1px #ddd solid;
+    margin-top: -1px;
+    padding: 14px 18px;
+}
+
+.orderBlockStatus{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderBlockStatus > button{
+    background: linear-gradient(to top,#f7dfa5,#f0c14b);
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #cba957 #bf942a #aa8326;
+    height: 30px;
+    width: 145px;
+    cursor: pointer;
+}
+
+.orderBlockStatusProcessing{
+    color: #090;
+}
+
+.orderBlockStatusPaymentFailed{
+    color: #c40000;
+}
+
+.orderBlockProduct{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 13.5px;
+}
+
+.orderBlockProduct > div:first-of-type{
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.orderBlockProduct > div:first-of-type > img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.orderBlockProduct > div:last-of-type > p:first-of-type{
+    font-weight: 600;
+}
+
+.orderBlockProduct > div:last-of-type > p:last-of-type > strong{
+    color: #b12704;
+}

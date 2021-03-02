@@ -1,0 +1,52 @@
+.address{
+    background-color: white;
+    min-width: 996px;
+    min-height: calc(100vh - 180px);
+    padding-bottom: 55px;
+}
+
+.addressHeader{
+    padding: 20px 24px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.addressContent{
+    padding: 20px 24px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.addressGeneralInfo{
+    margin-bottom: 30px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: solid #e7e7e7 1px;
+}
+
+.addressGeneralInfo > h1{
+    margin-bottom: 10px;
+}
+
+.addressGeneralInfo > p{
+    font-size: 14px;
+}
+
+.addressList{
+    margin-bottom: 20px;
+}
+
+.addressList > h2{
+    margin-bottom: 20px;
+}
+
+.addressListFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addressDivider{
+    background: linear-gradient(to right,#FFF,rgba(255,255,255,0),#fff), linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    height: 40px;
+}

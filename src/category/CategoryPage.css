@@ -1,0 +1,38 @@
+.searchCategoryWrapper{
+    background-color: white;
+    min-height: calc(100vh - 185px);
+}
+
+.searchCategory{
+    margin: auto;
+    width: 90%;
+    min-width: 996px;
+}
+
+.searchCategory >div:first-of-type{
+    padding: 20px 30px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.searchCategory > div:first-of-type >span{
+    color: #c45500;
+}
+
+.searchCategoryEmpty{
+    width: fit-content;
+    margin:auto;
+    padding: 100px 0 0 0 !important;
+}
+
+.searchCategoryTryAgain{
+    width: fit-content;
+    margin:auto;
+}
+
+.searchCategoryFlex{
+    display: flex;
+    flex-wrap: wrap;
+    /* width:1428px; */
+    /* justify-content: center; */
+}

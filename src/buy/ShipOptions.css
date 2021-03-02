@@ -1,0 +1,117 @@
+.shipOptionWrapper{
+    background-color: white;
+    min-height: calc(100vh - 180px);
+    padding-bottom: 55px;
+}
+
+.shipOption{
+    max-width: 1200px;
+    min-width: 996px;
+    margin: auto;
+}
+
+.shipOptionHeader{
+    padding: 20px 0px 20px 24px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipOptionContinueWrapper{
+    margin-left: auto;
+    padding: 14px 18px;
+    border-radius: 4px;
+    max-width: 250px;
+    width: 31.59747%;
+    border: 1px #ddd solid;
+    background-color: #f7f7f7!important;
+}
+
+.shipOptionContinueButton{
+    background: linear-gradient(to top,#f7dfa5,#f0c14b);
+    border: 1px solid;
+    border-radius: 3px;
+    width: 100%;
+    height: 31px;
+    border-color: #cba957 #bf942a #aa8326;
+}
+
+.shipOptionContent{
+    padding: 20px 24px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    display: flex;
+}
+
+.shipOptionContentAddress{
+    color: #888;
+    font-size: 13.5px;
+    margin: 10px 0px;
+}
+
+.shipOptionContentLeft{
+    width: 45%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+.shipOptionContentLeft > h3{
+    margin-bottom: 5px;
+}
+
+.shipOptionContentLeft > div:first-of-type{
+    display: flex;
+    align-items: flex-end;
+}
+
+.shipOptionContentLeft > div:first-of-type > h4{
+    margin-right: 5px;
+}
+
+.shipOptionContentOrderListItem{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.shipOptionContentOrderListItem > span:first-of-type{
+    font-weight: 500;
+}
+
+.shipOptionContentOrderListItem > p{
+    margin-top: 3px;
+}
+
+.shipOptionContentOrderListItem > p > strong{
+    color: #b12704;
+}
+
+.shipOptionContentOrderListItem > p > span{
+    color: #888;
+}
+
+.shipOptionContentRight > label{
+    color: #090;
+    font-size: 13.5px;
+}
+
+.shipOptionContentRight > label > span{
+    color: black;
+}
+
+.shipOptionContentRight > button{
+    display: none;
+}
+ 
+.shipOptionLineDivider{
+    border-top: 1px solid #e7e7e7;
+    height: 20px;
+}
+
+.shipOptionShadowDivider{
+    background: linear-gradient(to right,#FFF,rgba(255,255,255,0),#fff), linear-gradient(to bottom,rgba(0,0,0,.14),rgba(0,0,0,.03) 3px,transparent);
+    height: 40px;
+    margin-top: 50px;
+}

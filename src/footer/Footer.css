@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #37475a;
+    width: 100%;
+}
+
+.footer >img{
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    height: 35px;
+}
+
+.footer > div{
+    height: 50px;
+    font-size: 12px;
+    background-color: #131a22;
+    color: #fff;
+    text-align: center;
+    padding-top: 19px;
+    box-sizing: border-box;
+}

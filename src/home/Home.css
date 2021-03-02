@@ -1,0 +1,88 @@
+.home{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    min-width: 996px;
+    min-height: calc(100vh - 180px);
+    padding-bottom: 55px;
+}
+
+.homeRow{
+    display: flex;
+    z-index: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+.homeRow >div{
+    flex: 0 0 25%;
+    padding: 5px 0;
+}
+
+.homeRowAuthCard{
+    margin: 5px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.homeRowAuthCard > div:first-of-type{
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.homeRowAuthCard > div:first-of-type > div:first-of-type{
+    font-size: 23px !important;
+    font-weight: 750;
+}
+
+.homeRowAuthCard div:last-of-type{
+    margin: auto;
+    width: fit-content;
+}
+
+.homeRowAuthCard div:last-of-type > img{
+    height: 200px;
+}
+
+.homeRowAuthCard > div:first-of-type > div:last-of-type{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.homeRowAuthCard > div > a{
+    color: #007185;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 10px;
+    text-align: end;
+}
+
+.homeOrder1{order:1}
+.homeOrder2{order:2}
+.homeOrder3{order:3}
+.homeOrder4{order:4}
+.homeOrder5{order:5}
+.homeOrder6{order:6}
+.homeOrder7{order:7}
+.homeOrder8{order:8}
+.homeOrder9{order:9}
+.homeOrderLast{display: none;}
+
+@media only screen and (max-width: 1240px){
+    .homeRow >div{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .homeRowAuthCardWrapper{
+        order: 7;
+    }
+    .homeOrderLast{
+        display: flex;
+    }
+}

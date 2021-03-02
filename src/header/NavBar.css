@@ -1,0 +1,132 @@
+.navBar{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    z-index: 150;
+}
+
+.navBarSideNavButton{
+    color: white;
+    padding: 3px 8px;
+    font-size: 24px;
+    border: 1px solid #8d8d89;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.headerLogo{
+    object-fit: contain;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 75%;
+    align-items: center;
+}
+
+.headerNavCountryFlag{
+    margin: auto 12px;
+    width: 30px;
+}
+
+.headerLink{
+    color: white;
+    text-decoration: none;
+    margin: auto 5px;
+    box-sizing: border-box;
+}
+
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 13px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.headerOption:hover{
+    border: 1px solid white;
+}
+
+.headerOptionLineOne{
+    font-size: 10px;
+}
+
+.headerOptionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.headerOptionBasket{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.headerOptionBasket >div{
+    height: 27px;
+    width: 42px;
+    overflow: hidden;
+}
+
+.headerOptionBasket >div > img{
+    margin-top: -265px;
+    margin-left: -173px;
+    height: 360px;
+}
+
+.headerBasketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+    line-height: 10px;
+    color: #f08804;
+}
+
+.headerSearch{
+    display: flex;
+    flex:1;
+    border-radius: 4px 4px 4px 4px;
+    overflow: hidden;
+}
+
+.headerSearchFocus{
+    box-shadow: 0 0 0 2px #F90, 0 0 0 3px rgba(255,153,0,.5);
+}
+
+.headerSearchBar{
+    height: 30px;
+    padding: 5px;
+    border: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+.headerSearchBar:focus{
+    outline: none;
+}
+
+.headerSearchIcon{
+    background-color:#febd69;
+    padding: 5px;
+    height: 30px !important;
+    width: 40px !important;
+    cursor: pointer;
+}
+
+.headerSearchIcon:hover{
+    background-color:#f3a847;
+}
+
+.hidden{
+    display: none;
+}

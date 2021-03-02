@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+}
+
+.App{
+  width: fit-content;
+  min-width: 100%;
+}
+
+.redirectMessage{
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+button{
+  cursor: pointer;
+}
