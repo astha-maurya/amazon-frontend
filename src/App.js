@@ -34,11 +34,14 @@ function App() {
 
   useEffect(() => {
     if (user) {
-      getCart()(dispatchCart);
+      setIsLoading(true);
+      getCart()(dispatchCart)
+        .then(() => setIsLoading(false));
     }
     else {
       emptyCart()(dispatchCart);
     }
+
   }, [user]);
 
   return (
