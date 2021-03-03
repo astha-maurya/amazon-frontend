@@ -14,7 +14,7 @@ function Subtotal() {
 
     const onContinue = async () => {
         const { res, er } = await createPendingOrder()(dispatchPendingOrder);
-        if (res) history.push('/buy/shipaddressselect');
+        if (!er) history.push('/buy/shipaddressselect');
     }
 
     return (
